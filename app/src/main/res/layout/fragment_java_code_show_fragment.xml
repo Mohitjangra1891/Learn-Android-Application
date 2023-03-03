@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AFBFBFBF"
+    android:orientation="vertical"
+    tools:context=".javaCode_show_fragment">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="40dp"
+            android:elevation="10dp"
+            android:focusable="true"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="5dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true">
+
+                <TextView
+                    android:id="@+id/javacode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginVertical="10dp"
+                    android:minHeight="48dp"
+                    android:paddingBottom="20dp"
+                    android:text="hhhhhhh"
+                    android:textColor="@color/black"
+                    android:textIsSelectable="true"
+                    android:textSize="13sp"
+                    android:typeface="sans"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+    </HorizontalScrollView>
+<!--    <HorizontalScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/second_java"-->
+<!--        android:visibility="gone"-->
+<!--        android:fillViewport="true">-->
+
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginHorizontal="5dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:elevation="10dp"-->
+<!--            android:focusable="true"-->
+<!--            app:cardCornerRadius="5dp"-->
+<!--            app:cardElevation="5dp">-->
+
+<!--            <ScrollView-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:fillViewport="true">-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/javacode2"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginHorizontal="10dp"-->
+<!--                    android:layout_marginVertical="10dp"-->
+<!--                    android:minHeight="48dp"-->
+<!--                    android:paddingBottom="20dp"-->
+<!--                    android:text="hhhhhhh"-->
+<!--                    android:textColor="@color/black"-->
+<!--                    android:textIsSelectable="true"-->
+<!--                    android:textSize="13sp"-->
+<!--                    android:typeface="sans"-->
+<!--                    tools:ignore="SpeakableTextPresentCheck" />-->
+<!--            </ScrollView>-->
+<!--        </androidx.cardview.widget.CardView>-->
+<!--    </HorizontalScrollView>-->
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#C503DAC5"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@drawable/app_logo"
+        android:id="@+id/header_imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="80dp"
+        android:paddingStart="5dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:scaleType="centerInside"
+      />
+
+    <TextView
+        android:id="@+id/header_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingTop="8dp"
+        android:text="Learn Android Development"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/header_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        android:text="Email: jangramohit18912@gmail.com"
+        android:layout_marginBottom="10dp"/>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Learn Android</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="tab_label1">Learn</string>
+    <string name="tab_label2">Basics</string>
+    <string name="tab_label3">Advance</string>
+
+    <string-array name="listOptions">
+        <item>"English"</item>
+        <item>"Hindi"</item>
+        <item>"Other"</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="links" id="lin">
+        <item>https://onlinecourses.swayam2.ac.in/nou23_ge24/preview</item>
+        <item>https://onlinecourses.swayam2.ac.in/aic20_sp02/preview</item>
+        <item>https://www.mygreatlearning.com/academy/learn-for-free/courses/android-application-development#bad_credentials</item>
+        <item>https://www.udacity.com/course/ux-design-for-mobile-developers--ud849</item>
+        <item>https://www.udacity.com/course/firebase-in-a-weekend-by-google-android--ud0352</item>
+        <item>https://developer.android.com/courses/fundamentals-training/toc-v2</item>
+        <item>https://developers.google.com/certification/associate-android-developer/study-guide</item>
+        <item>https://developer.android.com/topic/libraries/architecture/viewmodel</item>
+        <item>https://developer.android.com/topic/libraries/data-binding</item>
+
+    </string-array>
+    <string name="hyperlink"><a href="https://developer.android.com/guide/components/activities/activity-lifecycle">Android Activity Lifecycle Documentation</a></string>
+    <string name="link"><a href="https://developer.android.com/studio">https://developer.android.com/studio</a></string>
+    <string name="link2"><a href="https://developer.android.com/studio">Read Further</a></string>
+    <string name="link3"><a href="https://developer.android.com/reference/android/widget/package-summary">here</a></string>
+    <!--    <string name="swayam_java"><a href="https://onlinecourses.swayam2.ac.in/nou23_ge24/preview">https://onlinecourses.swayam2.ac.in/nou23</a></string>-->
+    <!--    <string name="swayam_kotlin"><a href="https://onlinecourses.swayam2.ac.in/aic20_sp02/preview">https://onlinecourses.swayam2.ac.in/aic20</a></string>-->
+    <!--    <string name="greatlearning"><a href="https://www.mygreatlearning.com/academy/learn-for-free/courses/android-application-development#bad_credentials">https://www.mygreatlearning.com/academy/</a></string>-->
+</resources>

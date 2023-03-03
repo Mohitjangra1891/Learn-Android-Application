@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#bfbfbf"
+    android:layout_height="match_parent"
+    tools:context=".Tab_Basic">
+
+<ListView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/listview_basic_tab"
+    android:scrollbars="vertical"
+    android:divider="@android:color/transparent"
+    android:layout_marginBottom="40dp"
+    />
+
+</RelativeLayout>

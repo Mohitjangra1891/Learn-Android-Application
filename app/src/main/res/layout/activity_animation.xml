@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".animation_Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:elevation="10dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleMarginStart="12dp"
+        app:titleTextAppearance="@style/CustomTextAppearancefor_toolbar"
+
+        />
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/progress" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/imageview"
+            android:layout_marginTop="10dp"
+            android:scrollbars="none">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:id="@+id/linear1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+                    <!--Blink animation of the image-->
+
+
+                    <Button
+                        android:id="@+id/blink"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#311b92"
+                        android:text="BLINK"
+                        android:textColor="#FFFFFF" />
+
+                    <!--Slide Up animation of the image-->
+
+
+                    <Button
+                        android:id="@+id/slide_up"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#311b92"
+                        android:text="SLIDE UP"
+                        android:textColor="#FFFFFF" />
+
+                    <!--Slide Down animation of the image-->
+
+
+                    <Button
+                        android:id="@+id/slide_down"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#311b92"
+                        android:text="SLIDE DOWN"
+                        android:textColor="#FFFFFF" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/linear1"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">                  <!--Rotate animation of the image-->
+
+
+                    <Button
+                        android:id="@+id/rotate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#311b92"
+                        android:text="ROTATE"
+                        android:textColor="#FFFFFF" />    <!--Zoom In animation of the image-->
+
+
+                    <Button
+                        android:id="@+id/zoom_in"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#311b92"
+                        android:text="ZOOM IN"
+                        android:textColor="#FFFFFF" />                <!--Zoom Out animation of the image-->
+
+
+                    <Button
+                        android:id="@+id/zoom_out"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#311b92"
+                        android:text="ZOOM OUT"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/linear2"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">                  <!--Cross Fade animation of the image-->
+                    <Button
+                        android:id="@+id/cross_fade"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#311b92"
+                        android:text="CROSS FADE"
+                        android:textColor="#FFFFFF" />
+                    <!--Fade In animation of the image-->
+                    <Button
+                        android:id="@+id/fade_in"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#311b92"
+                        android:text="FADE IN"
+                        android:textColor="#FFFFFF" />
+                    <!--Fade out animation of the image-->
+                    <Button
+                        android:id="@+id/fade_out"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#311b92"
+                        android:text="FADE OUT"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/linear4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/linear3"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal"
+                    android:weightSum="3">     <!--Move animation of the image-->
+                    <Button
+                        android:id="@+id/move"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#311b92"
+                        android:text="MOVE"
+                        android:textColor="#FFFFFF" /> <!--Bounce animation of the image-->
+                    <Button
+                        android:id="@+id/bounce"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#311b92"
+                        android:text="BOUNCE"
+                        android:textColor="#FFFFFF" />       <!--Sequential animation of the image-->
+                    <Button
+                        android:id="@+id/sequential"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:layout_weight="1"
+                        android:background="#311b92"
+                        android:text="SEQUENTIAL"
+                        android:textColor="#FFFFFF" />
+                </LinearLayout>
+                <!--To stop the animation of the image-->
+                <Button
+                    android:id="@+id/stop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/linear4"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="70dp"
+                    android:background="#E65100"
+                    android:text="Stop"
+                    android:textColor="#000000" />
+            </RelativeLayout>
+
+        </ScrollView>
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/code_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_above="@id/banner_container"
+            android:src="@drawable/codebutton"
+            tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+        <LinearLayout
+            android:backgroundTint="#bfbfbf"
+            android:gravity="center"
+            android:id="@+id/banner_container"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
